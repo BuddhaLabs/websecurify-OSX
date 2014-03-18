@@ -1,0 +1,3 @@
+content org.gnucitizen.weaponry.common.sites sites/common@weaponry.gnucitizen.org/
+content org.gnucitizen.websecurify.firefox.sites sites/firefox@websecurify.gnucitizen.org/
+resource org.gnucitizen.websecurify.firefox.sites sites/firefox@websecurify.gnucitizen.org/

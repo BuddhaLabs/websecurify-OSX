@@ -1,0 +1,4 @@
+#!/bin/bash
+CALLDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+"$CALLDIR/runner-bin" "$CALLDIR/../Resources/application.ini" "$@"
+

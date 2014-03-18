@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/application.ini</key>
+		<data>
+		eMQlAeE9aV2Z49Vii/1A7w5++fQ=
+		</data>
+		<key>Resources/chrome.manifest</key>
+		<data>
+		QDIbq/sA+cQmVcl9qg2OVwWC75g=
+		</data>
+		<key>Resources/icon.icns</key>
+		<data>
+		trdp2fHLlxO+F8A3nj9nnZ4jpo0=
+		</data>
+		<key>Resources/omni.ja</key>
+		<data>
+		zKWiuOrnYZAazwoXYiK6GqPh1sI=
+		</data>
+		<key>Resources/sites/common@weaponry.gnucitizen.org/scripts/weaponryTerminalLauncher.cmd</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Resources/sites/common@weaponry.gnucitizen.org/scripts/weaponryTerminalLauncher.scpt</key>
+		<data>
+		PtvTyyrwfORiXhQk4bImPGuSxQQ=
+		</data>
+		<key>Resources/sites/common@weaponry.gnucitizen.org/scripts/weaponryTerminalLauncher.sh</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
